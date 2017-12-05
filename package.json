@@ -2,9 +2,9 @@
   "name": "lulu",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lulu.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lulu.js"
   },
   "keywords": [],
   "author": "",
