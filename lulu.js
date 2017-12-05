@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const  client = new Discord.Client();
+const config = require("./config.json");
 
 client.on("ready", () => {
    console.log("Estoy listo!");
@@ -216,4 +217,4 @@ client.on("message", (message) => {
                              
                               process.setMaxListeners(100);
   });
-  client.login(process.env.BOT_TOKEN);     
+  client.login(config.token);     
