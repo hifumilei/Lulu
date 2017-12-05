@@ -210,7 +210,11 @@ client.on("message", (message) => {
                                                     '-> '+prefix+'server         :: Muestra información de un servidor determinado.\n'+
                                                     '-> '+prefix+'8ball          :: El bot respondera a tus preguntas.\n'+
                                                     '-> '+prefix+'ban <@user>    :: Banear a un usuario del servidor incluye razon.\n'+
-                                                    '-> '+prefix+'hola           :: Retorna un saludo como mensaje.\n```\n\n'+
+                                                    '-> '+prefix+'hola           :: Retorna un saludo como mensaje.\n'+
+                                                    '-> '+prefix+'ytplay [URL]   :: Pon el url de youtube de la cancion que quieras!.\n'+
+                                                    '-> '+prefix+'radio          :: Activa la radio electro!.\n'+
+                                                    '-> '+prefix+'leave          :: Haz que me salga del canal de voz.\n'+
+                                                    '-> '+prefix+'join           :: ¡Uneme a un canal de voz!.\n```\n\n'+
                                                     '¡Con todos los colores! una recomendacion: Revisa las reglas de nuestro servidor para no tener problemas **\nTe ha hablado Lulu la bot preferida del server y te deseo un buen día/noche/tarde**');
                                 
                               }
